@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workouts | Rep Stronghold Gym</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center; /* Centers all text */
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+        }
+
+        .gym-logo {
+            width: 60px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #444;
+            padding: 10px;
+            gap: 20px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+        .nav a:hover {
+            background-color: #666;
+            border-radius: 5px;
+        }
+
+        .workout-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .workout-title {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .workout-section {
+            margin: 30px 0;
+        }
+
+        .workout-section h2 {
+            font-size: 24px;
+            color: #e63946;
+            margin-bottom: 15px;
+        }
+
+        .workout-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 700px; /* Keeps text centered and readable */
+            text-align: center;
+        }
+
+        .workout-text ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .workout-text ul li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .insta {
+            width: 20px;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Rep Stronghold Gym</h1>
+        <img class="gym-logo" src="rep.png" alt="Rep Stronghold Logo">
+    </div>
+
+    <nav class="nav">
+        <a href="home.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="workouts.html">Workouts</a>
+        <a href="contacts.html">Contact</a>
+    </nav>
+
+
+    <div class="workout-container">
+        <h2 class="workout-title">Beginner Powerlifting Program</h2>
+
+        <div class="workout-section">
+            <h2>Day 1: Squat Focus</h2>
+            <p class="workout-text">
+                Squats are the foundation of lower body strength. This workout focuses on improving **leg drive, core stability, and overall power**.
+            </p>
+            <ul class="workout-text">
+                <li>🟢 Squats: 4 sets x 5 reps</li>
+                <li>🟢 Front Squats: 3 sets x 8 reps</li>
+                <li>🟢 Romanian Deadlifts: 3 sets x 10 reps</li>
+                <li>🟢 Calf Raises: 3 sets x 15 reps</li>
+                <li>🟢 Core Work (Planks, Hanging Leg Raises)</li>
+            </ul>
+        </div>
+
+        <div class="workout-section">
+            <h2>Day 2: Bench Press Focus</h2>
+            <p class="workout-text">
+                Bench press develops upper body strength and stability. This routine strengthens your **chest, triceps, and shoulders** for maximum press power.
+            </p>
+            <ul class="workout-text">
+                <li>🔴 Bench Press: 4 sets x 5 reps</li>
+                <li>🔴 Incline Dumbbell Press: 3 sets x 10 reps</li>
+                <li>🔴 Dips: 3 sets x 10 reps</li>
+                <li>🔴 Overhead Press: 3 sets x 8 reps</li>
+                <li>🔴 Triceps Extensions: 3 sets x 12 reps</li>
+            </ul>
+        </div>
+
+        <div class="workout-section">
+            <h2>Day 3: Deadlift Focus</h2>
+            <p class="workout-text">
+                Deadlifts build **raw strength, grip power, and total-body stability**. This session improves your **posterior chain and back strength**.
+            </p>
+            <ul class="workout-text">
+                <li>🟡 Deadlifts: 4 sets x 5 reps</li>
+                <li>🟡 Deficit Deadlifts: 3 sets x 8 reps</li>
+                <li>🟡 Barbell Rows: 3 sets x 10 reps</li>
+                <li>🟡 Pull-Ups: 3 sets x 10 reps</li>
+                <li>🟡 Core Work (Hanging Leg Raises, Side Planks)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contact Us: repstronghold@gmail.com | Follow us on 
+            <img class="insta" src="instagram.png" alt="Instagram Icon">@repstrongholdgym
+        </p>
+    </div>
+
+</body>
+</html>
